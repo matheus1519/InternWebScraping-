@@ -1,0 +1,11 @@
+{
+  "name": "intern-webscrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "download-pdf": "^0.1.6",
+    "puppeteer": "^9.1.1"
+  }
+}
