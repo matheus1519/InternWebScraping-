@@ -5,7 +5,7 @@ async function init() {
   const url =
     "http://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar";
 
-  const browser = await puppeteer.launch({ headless: false, slowMo: 100 });
+  const browser = await puppeteer.launch({ slowMo: 100 });
   const page = await browser.newPage();
 
   await page.goto(url);
